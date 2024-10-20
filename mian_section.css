@@ -1,0 +1,339 @@
+/* start mainsectio */
+
+main{
+    width: 50%;
+    z-index: 1000px;
+   margin-left: 410px;
+    /* background-color: aqua; */
+    position: sticky;
+
+ 
+}
+.grid_container{
+   
+}
+.sub_grid_container{
+  
+    max-width: 100%;
+    display:grid;
+    grid-template-columns: 120px 120px 120px 120px ;
+    column-gap:32px;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+    /* background-color: rgb(192, 255, 192); */
+}
+
+.sub_grid_container .contianer{
+    margin-top: 10px;
+   width: 130px;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    border: none;
+    border-radius: 14px;
+    position: relative;
+    padding-right: 10px;
+    box-shadow: 4px 5px 4px rgba(106, 106, 106, 0.1);
+
+}
+.contianer:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 0.5s;
+}
+.contianer .current_img{
+    width: 140px;
+    height: 190px;
+    border-radius: 13px;
+    cursor: pointer;
+   
+}
+.current_img:hover{
+   background-color: lightgray;
+}
+.contianer .upload_picture{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 50px;
+    bottom: 34px;
+    border-radius: 15px;
+}
+.contianer p{
+    font-size: 14px;
+    font-family: 'Roboto', arial;
+    font-weight: bold;
+    text-align: center; 
+}
+.contianer .picture_2{
+    width: 140px;
+    height: 230px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.container_2{
+    position: relative;
+    
+
+}
+
+.sub_container_2 {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+
+}
+.sub_container_2 p{
+    color: white;
+    
+    font: weight 100;
+    
+}
+.active_div .active_pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+   border: 4px solid rgb(25, 109, 253);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+
+}
+.active_div .dott{
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    position: absolute;
+    top:44px;
+    left: 35px;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+
+.mypost{
+    width: 560px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px rgba(82, 81, 81, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    margin-left: 100px;
+    margin-top: 20px;
+  
+}
+.mypost_div-1 img{
+    width: 40px;
+
+}
+.mypost_div-1 {
+    display: grid;
+    grid-template-columns: 45px 560px;
+    margin-top: 10px;
+    column-gap: 4px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    
+}
+.mypost_underline{
+    margin-top: 10px;
+border-bottom: 1px solid lightgray;
+}
+.mypost_div-1 input{
+    width: 85%;
+    height: 23px;
+    padding: 7px 7px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(246, 246, 246);
+    font-size: 17px;
+    margin-bottom: 14px;
+    outline: none;
+}
+.mypost_div-1 input::placeholder{
+    padding-left: 10px;
+    
+}
+.mypost_div-1 input:hover{
+    background-color: rgb(231, 231, 231);;
+}
+.mypost_div-2 {
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.mypost_div-2 .post_icon{
+    width: 300px;
+    height: 40px;
+    margin: 0px 8px 0px 8px;
+    padding: 1px 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.post_icon:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.post_icon p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(137, 137, 137);
+}
+.post_icon i{
+    font-size: 25px;
+    line-height: top;
+    margin-right: 8px;
+    
+}
+.post_icon .fa-video{
+   color: red;
+}
+.post_icon .fa-images{
+    color: rgb(63, 233, 97);
+ }
+ .post_icon .fa-face-grin{
+    color: rgb(239, 199, 67);
+ }
+
+
+ 
+.friends_post{
+    width: 560px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+   border-radius: 8px;
+  
+}
+.friends_post .my-pic{
+    width: 100%;
+    height: 300px;
+}
+.mini-friend-post img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.mini-friend-post{
+    
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.post-detail{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    margin-left: 5px;
+    margin-top: 7px;
+    
+}
+.post-info{
+    
+    width:95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 8px;
+    
+    
+}
+.post-info a{
+    text-decoration: none;
+}
+.post-info .person-name{
+    
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.post-info .follow{
+    font-size: 15px;
+    color:rgb(29, 82, 229);
+
+}
+.post-date {
+    font-size: 14px;
+    color:rgb(104, 102, 102);
+}
+.post-date .fa-solid{
+    font-size: 10px;
+}
+
+.reaction-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(127, 125, 125);
+    padding: 5px 10px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+.left-post img{
+    width: 15px;
+
+}
+.left-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.left-post .likes {
+    margin-top: -4px;
+    padding-left: 5px 
+}
+.right-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+.right-like{
+    margin-right: 5px;
+}
+.coments{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4px;
+    color: rgb(177, 177, 177);
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+}
+.coments div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 4px;
+}
+.coments .fa-solid{
+    font-size: 16px;
+    margin-right: 4px;
+}
+.like-post .like-span{
+    margin-top: 3px;
+}
+.coments span{
+    font-size: 14px;
+
+}

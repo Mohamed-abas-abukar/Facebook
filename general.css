@@ -1,0 +1,29 @@
+body{
+    margin: 0px;   
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 900px;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.border_bottom{
+    border-bottom: 1px solid lightgray;
+}
+
+@media screen and (min-width:992px) {
+    .sub_grid_container{
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width:1097px) {
+    .sub_grid_container{
+        background-color: indianred;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+}

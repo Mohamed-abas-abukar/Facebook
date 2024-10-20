@@ -1,0 +1,52 @@
+
+navbar{
+    max-width: 25%;
+    position:fixed;
+    top: 60px;
+    bottom: 0px;
+    background-color: rgb(242, 242, 242);
+    padding-top: 25px;
+    padding-left: 15px;
+
+}
+navbar:hover{
+    overflow-y: scroll;
+}
+.my_profile_pic_div:hover{
+    background-color: rgb(231, 231, 231);
+   border-radius: 8px;
+}
+.my_profile_pic_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+navbar .my_profile_pic{
+    width: 26px;
+    height: 26px;
+    padding-right: 7px;
+
+}
+navbar .my_profile_name{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+navbar h4{
+  color: rgb(107, 106, 106);
+font-weight: 400;
+
+
+}
+navbar .h4-div{
+    margin-top: -13px;
+    
+}
+.my_profile_pic_div .somali_pic{
+    width:28px;
+    height: 28px;
+    border-radius: 3px;
+    
+    
+}
